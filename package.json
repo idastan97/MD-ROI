@@ -1,0 +1,49 @@
+{
+  "name": "mdroi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "bundle": "webpack",
+    "build": "react-scripts build",
+    "devServe": "nodemon server.js development",
+    "prodServe": "node server.js production"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.1",
+    "img-loader": "^2.0.0",
+    "nodemon": "^1.11.0",
+    "react-scripts": "0.6.1",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "body-parser": "^1.0.2",
+    "connect-mongo": "^1.3.2",
+    "crypto": "latest",
+    "express": "^4.14.0",
+    "express-session": "latest",
+    "google-adwords": "^1.1.2",
+    "history": "^4.6.1",
+    "mongoose": "^4.11.1",
+    "morgan": "^1.0.1",
+    "passport": "latest",
+    "passport-local": "latest",
+    "passport-local-mongoose": "latest",
+    "path": "latest",
+    "prop-types": "^15.5.10",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-router": "^3.0.5",
+    "react-router-dom": "^4.1.1"
+  },
+  "author": "Dastan Iyembergen",
+  "license": "ISC"
+}
